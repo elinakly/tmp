@@ -1,4 +1,4 @@
-#pragma once
+
 
 #include <string>
 #include <iostream>
@@ -11,8 +11,6 @@ void    swap(T &val1, T &val2)
     T tmp = val1;
     val1 = val2;
     val2 = tmp;
-    std::cout << val1 << '\n';
-    std::cout << val2 << '\n';
 }
 template <typename T>
 T min(T &val1, T &val2)

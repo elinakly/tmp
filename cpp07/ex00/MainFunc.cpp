@@ -1,2 +1,2 @@
-#include "MainFunc.tpp"
+#include "MainFunc.hpp"
 
